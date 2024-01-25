@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .w {
+            display: inline;
+            color: cadetblue;
+            background-color: cornsilk;
+            margin: 20px 10px 40px;
+        }
+
+        .hi::before {
+            content:url(./icons8-veg-16.png);
+            position: relative;
+            padding: 5px;
+            
+        }
+        .hello::before{
+            content:url(./icons8-non-vegetarian-food-symbol-16.png);
+            padding:5px;
+
+        }
+        .S{
+            background-color: brown;
+            padding:10px 20px 20px;
+            text-align: center;
+        }
+        li{
+            list-style-type: none;
+        }
+        li{
+            color:blueviolet;
+    
+        }
+        .I{
+            text-align: center;
+            color: darkseagreen;
+            background-color: chocolate;
+            position: sticky;
+            top: 0;
+            padding: 50px;
+            font-size: 20px;
+        }
+        B{
+            float: right;
+         
+        }
+        B {
+        width: 300px;
+        height: 100px;
+        transition: width 4s;
+}
+        :hover{
+            width:500px;
+        }
+        .id{
+            background-color: black;
+            width: 100px;
+            height:100px;
+            transition: 5s;
+            
+
+        }
+        .id:hover{
+            width: 300px;
+            background-color: antiquewhite;
+        }
+        </style>
+
+
+        </head>
+    <body>
+            <center style="color:coral;background-color: brown;"><h1>Restaurent:</h1></center>
+            <ol class="S">
+                <li class="w"><a  style="margin: left 5px"; href="#home";>Home</a></li>
+                <li class="w"><a  style="margin-left:55px"; href="#vegitems";>Veg items</a></li>
+                <li class="w"><a  style="margin-left:55px"; href="#nonveg";>Non veg</a></li>
+                <li class="w"><a  style="margin-left:55px"; href="#maps";>Maps</a></li>
+                <li class="w"><a  style="margin-left:55px"; href="#contact";>Contact</a></li>
+                </ol>
+                <img src="./Restaurant.jpg" width="550">
+                <h1 style="color:coral;" id="vegitems">Veg items:</h1>
+                <ul >
+                    <li class="hi" >Veg Biryani</li>
+                    <li class="hi" >Veg pulav</li>
+                    <li class="hi" >Butternon</li>
+                    <li class="hi">Curd Rice</li>
+                </ul>
+                <h1 style="color: darkolivegreen;" id="nonveg">Non veg Items:</h1>
+                <ul>
+                    <li class="hello">chicken biryni</li>
+                    <li class="hello">Mutton Biryani</li>
+                    <li class="hello">chicken tikka</li>
+                </ul>
+                <h1 style="color: cornflowerblue;" id="maps">Maps:</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60887.622809657376!2d78.3178464486328!3d17.4847564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb910ea0927dfd%3A0x86fa89c025122988!2sLumbini%20Restaurant%203rd%20phase!5e0!3m2!1sen!2sin!4v1706159217694!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div>
+                    <p><b>Please enter your queries here for a quick response.</b></p><br>
+                    <input id="fname" type="text" placeholder="Is home dekivery available">
+                    <button>Ask</button>
+                    
+                    <center><textarea name="message" id="fname" cols="30" rows="10" placeholder="Please give us a vaulable feedback or any suggestions to serve you better"></textarea></center>
+                    <button>Submit</button><br><br
+                
+                </div>
+                <h2 id="contact">Contact:</h2>
+                <h2>Deshpeddi Maheshwari</h2>
+                <h2>Mobile no:1234567891</h2>
+                <h2>Email:</h2>
+                <h2>Mahi@gmail.com</h2>
+            <h2 class="I">I will stick to the screen when you reach my scroll position</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta</p>
+            <div>
+            <h1>I am using float here:</h1>
+            <p ><img class="B" src="./Brick.jpeg" width="300px" height="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. </p><br>
+            <br>
+            <div class="id"></div>
+        </div>
+        
+        </body>
+            </html>
